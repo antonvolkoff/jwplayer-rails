@@ -1,3 +1,6 @@
+# require 'railties'
+require 'rails'
+
 module JWPlayer::Rails
   class Engine < ::Rails::Engine
     initializer "precompile", :group => :all do |app|
