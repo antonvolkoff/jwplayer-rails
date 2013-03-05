@@ -1,6 +1,6 @@
 # Jwplayer::Rails
 
-TODO: Write a gem description
+JW Player for Rails. Current version of JW Player is 6.2.3115
 
 ## Installation
 
@@ -8,22 +8,24 @@ Add this line to your application's Gemfile:
 
     gem 'jwplayer-rails'
 
-And then execute:
-
-    $ bundle
-
 Or install it yourself as:
 
     $ gem install jwplayer-rails
 
 ## Usage
 
-TODO: Write usage instructions here
+First include assets on the page
 
-## Contributing
+    <%= jwplayer_assets %>
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Than place a div with JW Player
+
+    <%= jwplayer %>
+
+You can pass options to jwplayer helper to customize it:
+
+    <%= jwplayer(width: 500, height: 200) %>
+
+More information for customization could be found [here][http://www.longtailvideo.com/support/jw-player/28839/embedding-the-player]
+
+Have fun!
