@@ -7,9 +7,19 @@ module JWPlayer::Rails
       height: '300'
     }
 
-    # Includes JWPlayer javascript library
+    # Includes JWPlayer javascript library (all)
     def jwplayer_assets
+      javascript_include_tag "jwplayer", "jwplayer.html5"
+    end
+    
+    # only include JWPlayer flash javascript file
+    def jwplayer_flash_assets
       javascript_include_tag "jwplayer"
+    end
+    
+    # only include JWPlayer html5 javascript file
+    def jwplayer_html_assets
+      javascript_include_tag "jwplayer.html5"
     end
 
     def jwplayer(options = {})
