@@ -1,6 +1,6 @@
 # Jwplayer::Rails
 
-JW Player for Rails. Current version of JW Player is 6.2.3115
+JW Player for Rails. Current version of JW Player is 6.8.4616
 
 ## Installation
 
