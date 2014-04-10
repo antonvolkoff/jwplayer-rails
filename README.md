@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 
 ~~Or install it yourself as:~~
 
-    ~~$ gem install jwplayer-rails~~
+~~    $ gem install jwplayer-rails~~
 
 ## Usage
 
