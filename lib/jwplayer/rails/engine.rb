@@ -5,6 +5,7 @@ module JWPlayer::Rails
   class Engine < ::Rails::Engine
     initializer "precompile", :group => :all do |app|
       app.config.assets.precompile << "jwplayer.js"
+      app.config.assets.precompile << "jwplayer.html5.js"
     end
 
     initializer "helper" do |app|
