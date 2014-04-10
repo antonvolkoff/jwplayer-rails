@@ -1,6 +1,6 @@
 module JWPlayer
   module Rails
-    VERSION = "1.0.1"
-    JWPLAYER_VERSION = "6.2.3115"
+    VERSION = "1.0.2"
+    JWPLAYER_VERSION = "6.8.4616"
   end
 end
