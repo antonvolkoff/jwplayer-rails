@@ -28,4 +28,8 @@ You can pass options to jwplayer helper to customize it:
 
 More information for customization could be found [here](http://www.longtailvideo.com/support/jw-player/28839/embedding-the-player)
 
+The text showed before the JwPlayer loads can be defined with the text option:
+
+    <%= jwplayer({text: "Loading.."}) %>
+
 Have fun!
